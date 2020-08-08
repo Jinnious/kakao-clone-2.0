@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <script src="https://kit.fontawesome.com/9211363abf.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="chats-body">
     <div class="status-bar">
         <div class="status-bar__column">
             <span class="status-bar__clock">10:05</span>
@@ -29,10 +29,8 @@
         <div class="header__header-column">
             
             <a href="index.html" class="header__back-btn">
-                    <i class="fas fa-arrow-left fa-2x"></i>
+                    <i class="fas fa-arrow-left"></i>
                 </a>
-                
-            </div>
             <h1 class="header__title"> Jay Park</h1>
         </div>
 
@@ -43,32 +41,31 @@
             <span class="header__icons">
                 <i class="fas fa-bars"></i>
             </span>
-      
-            
         </div>
     </header>
-   <main class="chat">
+
+   <main class="chat-screen">
        <ul class="chat__messages">
            <span class="chat__timestamp">Friday, January 11, 2020</span>
             <li class="incoming-message message">
-                <img src="img/avatar.jpg" class="g-avatar message__avatar">
+             <img src="img/avatar.jpg" class="m-avatar message__avatar" />  
                 <div class="message__content">
                     <span class="message__author">Jay Park</span>
                     <div class="message__bubble">
-                        Jinny Jinny 
+                        Jinny I love you
                     </div>
                 </div>
-                <span class="message__timestamp"></span>
+           
             </li>
-
-            <li class="incoming-message message">
-                <span class="message__timestamp"></span>
+            <li class="sent-message message">
+                <span class="chat__timestamp"></span>
                 <div class="message__content">
-                    <div class="message__bubble">
-                        Jay Jay
-                    </div>
+                  <div class="message__bubble">
+                      
+                    Thank you see you soon!
+                  </div>
                 </div>
-            </li>
+              </li>
        </ul>
    </main>
     <div class="chat__write">
